@@ -6,6 +6,51 @@
     <title>Como os drones podem ajutar a agricultura</title>
     <link rel="stylesheet" href="styles.css"> </head>
 
+
+       <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 2000px; /* Para dar uma página maior e permitir rolagem */
+        }
+        .btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn-scroll-down {
+            top: 70px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Botões para rolar a página -->
+    <button class="btn" onclick="scrollUp()">Subir</button>
+    <button class="btn btn-scroll-down" onclick="scrollDown()">Descer</button>
+
+    <script>
+        // Função para rolar para cima
+        function scrollUp() {
+            window.scrollBy(0, -100); // Rola para cima 100px
+        }
+
+        // Função para rolar para baixo
+        function scrollDown() {
+            window.scrollBy(0, 100); // Rola para baixo 100px
+        }
+    </script>
+
+</body>
+</html>
+
 </head>
 <body>
    <body style="background-color: #1eee86;"></body> <p><center>Revolução dos Drones na Agricultura</center></p>
@@ -41,3 +86,5 @@
     <p>Pacotes e Acessórios: A maioria dos drones é vendida em kits que incluem múltiplas baterias, carregadores rápidos e até geradores de energia. Esses kits completos elevam significativamente o valor, mas são essenciais para otimizar o tempo de trabalho no campo.</p>
 </body>
 </html>
+
+
